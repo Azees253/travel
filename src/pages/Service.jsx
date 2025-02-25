@@ -1,20 +1,17 @@
+import Heros from "../Heros";
 import Navbar from "../Navbar";
+import ServiceImg from "../assets/3.jpg";
 
 export default function Service() {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginTop: "30%",
-        }}
-      >
-        <h1>Services</h1>
-      </div>
+      <Navbar />
+      <Heros
+        cName="abouthero"
+        hederImg={ServiceImg}
+        title="service"
+        btnClass="hide"
+      />
     </>
   );
 }

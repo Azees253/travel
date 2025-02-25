@@ -1,15 +1,15 @@
 .hero {
   width: 100%;
-  heigth: 100vh;
+  height: 100vh;
   position: relative;
 }
-.hero-mid {
+.abouthero {
   width: 100%;
-  heigth: 70vh;
+  height: 70vh;
   position: relative;
 }
-.hero-mid h1 {
-  padding-top: 4rem !important;
+.abouthero h1 {
+  padding-top: 3rem !important;
 }
 
 img {
@@ -27,6 +27,7 @@ img {
 .hero-text h1 {
   font-size: 3rem;
   font-weight: 800;
+  text-align: center;
   background: #fff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -35,11 +36,12 @@ img {
   font-size: 1.3rem;
   color: #fff;
   padding: 0.5rem 0.2rem 0;
+  text-align: center;
 }
 .hero-text .show {
   position: absolute;
-  top: 100%;
-  left: 37%;
+  top: 120%;
+  left: 42%;
   text-decoration: none;
   background: #fff;
   padding: 1rem 2rem;
@@ -62,8 +64,9 @@ img {
   }
   .hero-text .show {
     position: absolute;
-    top: 85%;
-    padding: 0.4rem 0.5rem;
+    top: 90%;
+    left: 30%;
+    padding: 0.6rem 1.1rem;
     border-radius: 6px;
     font-size: 1rem;
   }

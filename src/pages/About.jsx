@@ -1,20 +1,17 @@
+import Heros from "../Heros";
 import Navbar from "../Navbar";
+import AboutImg from "../assets/2.jpg";
 
 export default function About() {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginTop: "30%",
-        }}
-      >
-        <h1>About</h1>
-      </div>
+      <Navbar />
+      <Heros
+        cName="abouthero"
+        hederImg={AboutImg}
+        title="About"
+        btnClass="hide"
+      />
     </>
   );
 }

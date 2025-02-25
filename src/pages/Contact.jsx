@@ -1,20 +1,17 @@
+import Heros from "../Heros";
 import Navbar from "../Navbar";
+import ContactImg from "../assets/4.jpg";
 
 export default function Contact() {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginTop: "30%",
-        }}
-      >
-        <h1>Contact</h1>
-      </div>
+      <Navbar />
+      <Heros
+        cName="abouthero"
+        hederImg={ContactImg}
+        title="Contact"
+        btnClass="hide"
+      />
     </>
   );
 }

@@ -2,7 +2,6 @@ import { Component, useState } from "react";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./pages/MenuItems";
 import "./styles/NavbarStyle.css";
-
 // class Navbar extends Component {
 //   render() {
 
