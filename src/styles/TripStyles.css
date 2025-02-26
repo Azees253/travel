@@ -10,6 +10,9 @@
   display: flex;
   justify-content: space-between;
 }
+.tripheader {
+  text-align: center;
+}
 .t-card {
   width: 32%;
   text-align: start;

@@ -1,11 +1,13 @@
-import "./TripStyles.css";
 import TripData from "./TripData";
 
 function Trip() {
   return (
     <div className="trip">
-      <h1>Recent Trips</h1>
-      <p>Bombon Lake (now known as Taal Lake).which grows along the river.</p>
+      <div className="tripheader">
+        <h1>Recent Trips</h1>
+        <p>Bombon Lake (now known as Taal Lake).which grows along the river.</p>
+      </div>
+
       <div className="tripcard">
         <TripData
           image="https://plus.unsplash.com/premium_photo-1668883188917-761f35942220?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb25lc2lhfGVufDB8fDB8fHww"

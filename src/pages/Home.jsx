@@ -1,6 +1,9 @@
+import Footer from "../Footer";
 import Heros from "../Heros";
 import Navbar from "../Navbar";
+import Trip from "../Trip";
 import img1 from "../assets/1.jpg";
+import Destination from "./Destination";
 
 export default function Home() {
   return (
@@ -15,6 +18,9 @@ export default function Home() {
         url="/"
         btnClass="show"
       />
+      <Destination />
+      <Trip />
+      <Footer />
     </>
   );
 }
