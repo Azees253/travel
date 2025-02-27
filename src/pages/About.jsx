@@ -1,5 +1,8 @@
+import AboutUs from "../AboutUs";
+import Footer from "../Footer";
 import Heros from "../Heros";
 import Navbar from "../Navbar";
+import Trip from "../Trip";
 import AboutImg from "../assets/2.jpg";
 
 export default function About() {
@@ -12,6 +15,8 @@ export default function About() {
         title="About"
         btnClass="hide"
       />
+      <AboutUs />
+      <Footer />
     </>
   );
 }

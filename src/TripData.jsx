@@ -1,4 +1,3 @@
-import Trip from "./Trip";
 import "./styles/TripStyles.css";
 
 function TripData(props) {

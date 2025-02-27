@@ -1,5 +1,7 @@
+import Footer from "../Footer";
 import Heros from "../Heros";
 import Navbar from "../Navbar";
+import Trip from "../Trip";
 import ServiceImg from "../assets/3.jpg";
 
 export default function Service() {
@@ -12,6 +14,8 @@ export default function Service() {
         title="service"
         btnClass="hide"
       />
+      <Trip />
+      <Footer />
     </>
   );
 }
